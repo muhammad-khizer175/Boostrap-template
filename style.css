@@ -1,0 +1,172 @@
+
+header{
+    background-color: #e74c3c;
+}
+
+#logo{
+    font-size: 2rem;
+    color: white;
+}
+
+#menu{
+    list-style: none;
+    
+}
+
+#menu li{
+    margin-top:0.7rem;
+
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    padding:10px 15px;
+   
+    
+}
+
+#menu li a:hover{
+    background-color:#c0392b ;
+}
+
+.hero-sec{
+    background-image: url(./images/forest-2.jpeg) ;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+    padding:20rem 0 ;
+}
+
+.title .the-title{
+    background-color: #fff;
+}
+.title p{
+    background-color: rgba(231,76,60,0.7);
+    color: #fff;
+}
+
+.heading{
+    position: relative;
+    z-index: 10;
+}
+
+.heading::after{
+    background: #e74c3c;
+    content:'';
+    display: block;
+    width:100px;
+    height:3px;
+    margin: 10px auto;
+}
+
+.services-sec{
+    padding-bottom: 5rem;
+}
+
+.service-box{
+   /* border:0.2rem solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2.5rem;
+   
+}
+
+.service-box i{
+    font-size: 4rem;
+    color: #e74c3c;
+    margin-bottom: 1rem;
+}
+
+.service-box p{
+    max-width: 18rem;
+}
+
+
+.testimonial-sec{
+    background-image: url(./images/forest.jpeg) ;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+    position: relative;
+}
+
+.testimonial-sec:before{
+    background: rgba(52, 73, 94, 0.7);
+    content:'';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.testimonial{
+    color:white;
+    position: relative;
+    z-index: 10;
+}
+
+.testimonial img{
+    width:5rem;
+    
+}
+
+.the-news{
+    margin-top: 4rem;
+}
+
+
+.the-news img{
+    width:100%;
+}
+
+.the-news h4{
+    color:#e74c3c;
+}
+
+.the-news .read{
+    color:#e74c3c;
+    text-decoration: none;
+}
+
+.read:after{
+    content:'\f101';
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+.date::before{
+    content:'\f073';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    
+}
+
+.the-footer{
+    background-color: rgb(52, 73, 94);
+    padding-top: 3rem;
+    padding-bottom:2rem;
+    color: #fff;
+}
+
+#footer-head::after{
+    background: #e74c3c;
+    content:'';
+    display: block;
+    width:100px;
+    height:3px;
+    margin:10px 0;
+}
+
+footer{
+
+    background-color:rgba(52, 73, 94,0.5);
+    color: #fff;
+    padding:0.5rem 0;
+}
+
